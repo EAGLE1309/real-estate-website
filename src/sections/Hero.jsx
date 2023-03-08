@@ -51,7 +51,9 @@ export default function App() {
               Find Real Estate <br />
               That Suits You.
             </Heading>
-            <Text mb={{ base: 10, md: 12, lg: 14, '2xl': 14 }}>
+            <Text
+              maxW={{ md: '95%' }}
+              mb={{ base: 10, md: 12, lg: 14, '2xl': 14 }}>
               Our goal is to make real estate simple, transparent, and
               accessible so that everyone can realize their dream of
               homeownership.
@@ -59,7 +61,7 @@ export default function App() {
             <Button mb={{ base: 10, lg: 12, '2xl': 14 }}>Get Started</Button>
 
             <Flex
-              gap={{ md: 6 }}
+              gap={{ md: 6, lg: 10 }}
               pt={4}
               direction={{ base: 'column', md: 'row' }}>
               <Stats text="Premium Products" value="1200" />
@@ -70,6 +72,7 @@ export default function App() {
 
           <Image
             alt="home image"
+            alignSelf="flex-end"
             p={{ md: 10 }}
             transform={{ base: 'scale(1.5)', md: 'scale(2.5)' }}
             width={{ base: '100%', md: '475px', lg: '505px' }}
