@@ -74,7 +74,7 @@ export default function App() {
             alt="home image"
             alignSelf="flex-end"
             p={{ md: 10 }}
-            mb={{ lg: "195px" }}
+            mb={{ lg: "160px" }}
             transform={{ base: 'scale(1.5)', md: 'scale(2.5)' }}
             width={{ base: '100%', md: '475px', lg: '505px' }}
             src="/hero-img.png"
