@@ -38,7 +38,8 @@ export default function Hero() {
           blur="120px"
         />
         <Flex
-          mb={{ md: 10, lg: "-5.625rem" }}
+          mt={{ lg: 6 }}
+          mb={{ md: 10, lg: 16 }}
           align="start"
           direction={{ base: 'column', md: 'row' }}
           w="100%">
