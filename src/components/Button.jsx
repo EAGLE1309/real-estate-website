@@ -21,6 +21,9 @@ export default function CustomButton(props) {
         color: 'gray.50',
         bg: props.varient == 'secondary' ? 'blue.100' : 'gray.700'
       }}
+      _active={{
+        transform: 'scale(0.95)'
+      }}
       transition=".225s"
       bg={props.varient == 'secondary' ? 'blue.50' : 'gray.800'}
       fontSize={props.fontSize ? props.fontSize : fs}

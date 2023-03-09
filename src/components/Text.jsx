@@ -1,7 +1,7 @@
 import { Text } from '@chakra-ui/react';
 
 export default function CustomText(props) {
-  const fs = { base: '14px', md: 'lg', '2xl': 'xl' };
+  const fs = { base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' };
   return (
     <Text
       {...props}
