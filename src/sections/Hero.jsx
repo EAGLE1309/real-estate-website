@@ -47,7 +47,7 @@ export default function App() {
               pb={4}
               as="h1"
               fontWeight="semibold"
-              mb={{ base: 4, lg: 6, '2xl': 12 }}>
+              mb={{ base: 4, lg: 6, '2xl': 8 }}>
               Find Real Estate <br />
               That Suits You.
             </Heading>
@@ -74,7 +74,7 @@ export default function App() {
             alt="home image"
             alignSelf="flex-end"
             p={{ md: 10 }}
-            mb={{ lg: "160px" }}
+            mb={{ lg: '160px' }}
             transform={{ base: 'scale(1.5)', md: 'scale(2.5)' }}
             width={{ base: '100%', md: '475px', lg: '505px' }}
             src="/hero-img.png"
