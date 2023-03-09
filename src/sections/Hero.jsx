@@ -38,7 +38,7 @@ export default function Hero() {
           blur="120px"
         />
         <Flex
-          mb={{ md: 10, lg: "-6rem" }}
+          mb={{ md: 10, lg: "-5.625rem" }}
           align="start"
           direction={{ base: 'column', md: 'row' }}
           w="100%">
@@ -59,8 +59,7 @@ export default function Hero() {
               maxW={{ md: '95%' }}
               mb={{ base: 10, md: 12, lg: 14, '2xl': 14 }}>
               Our goal is to make real estate simple, transparent, and
-              accessible so that everyone can realize their dream of
-              homeownership.
+              accessible and let everyone live in a happy home.
             </Text>
             <Button mb={{ base: 10, lg: 12, '2xl': 14 }}>Get Started</Button>
 
