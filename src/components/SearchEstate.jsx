@@ -25,6 +25,7 @@ export default function SearchEstate() {
           icon={<IoLogoEuro />}
         />
         <Button
+          fontSize={{ base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }}
           w={{ base: '100%', md: 'auto' }}
           py={{ base: 2.5, md: 2 }}
           px={4}>
@@ -55,6 +56,9 @@ const InputComponent = ({ placeholder, icon, type }) => {
         px={4}
         fontWeight="medium"
         fontSize={{ base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }}
+        _placeholder={{
+          fontSize: { base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }
+        }}
       />
       <InputRightAddon
         bg="gray.50"
