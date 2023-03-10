@@ -66,6 +66,7 @@ const InputComponent = ({ placeholder, icon, type }) => {
         border="1px solid"
         borderColor="blackAlpha.50"
         borderLeft="0"
+        py={{ base: 2, md: 4, "2xl": 6 }}
         children={icon}
       />
     </InputGroup>
