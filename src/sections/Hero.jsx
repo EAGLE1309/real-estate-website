@@ -6,7 +6,7 @@ export default function Hero() {
 
   return (
     <>
-      <Flex mb={sectionGap} w="100%" direction="column" align="start">
+      <Flex mb={sectionGap} w="100%" pos="relative" direction="column" align="start">
         <chakra.span
           pos="absolute"
           w="100px"
