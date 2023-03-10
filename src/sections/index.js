@@ -1,4 +1,4 @@
 import Hero from './Hero.jsx';
-import Features from './Features.jsx';
+import Popular from './Popular.jsx';
 
-export { Hero, Features };
+export { Hero, Popular };

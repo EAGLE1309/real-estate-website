@@ -6,5 +6,16 @@ import Modal from './Modal';
 import Navbar from './Navbar';
 import SearchEstate from './SearchEstate';
 import Stats from './Stats';
+import Card from './Card';
 
-export { Text, Button, Heading, Layout, Modal, Navbar, SearchEstate, Stats };
+export {
+  Text,
+  Button,
+  Heading,
+  Layout,
+  Card,
+  Modal,
+  Navbar,
+  SearchEstate,
+  Stats
+};

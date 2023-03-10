@@ -1,10 +1,10 @@
-import { Hero, Features } from './sections';
+import { Hero, Popular } from './sections';
 
 export default function App() {
   return (
     <>
       <Hero />
-      <Features />
+      <Popular />
     </>
   );
 }

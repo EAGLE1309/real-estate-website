@@ -2,9 +2,11 @@ import { chakra, Flex, Image } from '@chakra-ui/react';
 import { Text, Heading, Button, SearchEstate, Stats } from '../components';
 
 export default function Hero() {
+  const sectionGap = { base: 16, md: 24, lg: 28 };
+
   return (
     <>
-      <Flex w="100%" direction="column" pos="relative" align="start">
+      <Flex mb={sectionGap} w="100%" direction="column" align="start">
         <chakra.span
           pos="absolute"
           w="100px"
@@ -39,7 +41,7 @@ export default function Hero() {
         />
         <Flex
           mt={{ lg: 6 }}
-          mb={{ md: 10, lg: 16 }}
+          mb={{ md: 16, lg: 20 }}
           align="start"
           direction={{ base: 'column', md: 'row' }}
           w="100%">
@@ -82,11 +84,11 @@ export default function Hero() {
             transform={{ base: 'scale(1.5)', md: 'scale(2.5)' }}
             width={{ base: '100%', md: '475px', lg: '505px' }}
             src="/hero-img.png"
-            zIndex="-1"
+            zIndex="-2"
           />
         </Flex>
+        <SearchEstate />
       </Flex>
-      <SearchEstate />
     </>
   );
 }
