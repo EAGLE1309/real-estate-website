@@ -12,7 +12,7 @@ export default function SearchEstate() {
       bg="white"
       mt={{ base: '-200px' }}
       className="shadow"
-      p={{ base: 6 }}>
+      p={{ base: 6, "2xl": 8 }}>
       <Heading pb={6} fontWeight="semibold" as="h3">
         Explore available properties
       </Heading>
@@ -28,7 +28,7 @@ export default function SearchEstate() {
           fontSize={{ base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }}
           w={{ base: '100%', md: 'auto' }}
           py={{ base: 2.5, md: 2 }}
-          px={4}>
+          px={{ base: 4, lg: 6, "2xl": 8 }}>
           Search
         </Button>
       </Flex>
@@ -52,12 +52,12 @@ const InputComponent = ({ placeholder, icon, type }) => {
         _active={{ border: 'none' }}
         _hover={{ border: 'none' }}
         _focusVisible={{ border: 'none' }}
-        py={{ base: 2, md: 4 }}
-        px={4}
+        py={{ base: 2, md: 4, "2xl": 6 }}
+        px={{ base: 4, "2xl": 6 }}
         fontWeight="medium"
-        fontSize={{ base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }}
+        fontSize={{ base: '14px', md: 'lg', lg: 'xl', '2xl': 'xl' }}
         _placeholder={{
-          fontSize: { base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }
+          fontSize: { base: '14px', md: 'lg', lg: 'xl', '2xl': 'xl' }
         }}
       />
       <InputRightAddon
