@@ -1,4 +1,4 @@
-import { chakra, Flex } from '@chakra-ui/react';
+import { chakra, Flex, Grid } from '@chakra-ui/react';
 import { Text, Heading, Card } from '../components';
 
 const estates = [
@@ -60,10 +60,11 @@ export default function Popular() {
           Our Popular Residence
         </Heading>
 
-        <Flex
+        <Grid
           w="100%"
+          templateColumns={'repeat(3, 1fr)'}
           className="no__overflow-scroll"
-          gap={{ base: 6, md: 12 }}
+          gap={{ base: 6, md: 12, lg: 10 }}
           overflow="scroll"
           position="relative">
           {estates &&
@@ -77,7 +78,7 @@ export default function Popular() {
                 price={data.price}
               />
             ))}
-        </Flex>
+        </Grid>
       </Flex>
     </Flex>
   );
