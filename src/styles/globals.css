@@ -41,6 +41,18 @@ a {
   }
 }
 
+/*======== OVERFLOW SCROLLBAR ========*/
+/* Chrome, Safari and Opera */
+.no__overflow-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Internet Explorer, Edge and Firefox */
+.no__overflow-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 /*======== NAVBAR OVERRIDES ========*/
 .navbar {
   position: fixed;
