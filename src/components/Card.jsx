@@ -14,9 +14,9 @@ export default function Card({ image, address, bhk, dimensions, area, price }) {
     <Flex bg="white" direction="column" mb={4}>
       <Image
         src={image}
-        minW={{ base: 'calc(100vw - 3rem)', md: '100%', lg: '80%' }}
+        minW={{ base: 'calc(100vw - 3rem)', md: '100%' }}
         minH={{ base: 'calc(100vw - 6rem)', md: '325px' }}
-        maxW={{ base: 'calc(100vw - 3rem)', md: '100%', lg: '80%' }}
+        maxW={{ base: 'calc(100vw - 3rem)', md: '100%' }}
         maxH={{ base: 'calc(100vw - 8rem)', md: '325px' }}
         objectFit="cover"
         alt="home image"
@@ -27,10 +27,7 @@ export default function Card({ image, address, bhk, dimensions, area, price }) {
         justify="start"
         p={{ base: 6, md: 8, '2xl': 10 }}>
         <Flex mb={{ base: 4, md: 7 }} wrap="wrap" align="start" justify="start">
-          <InfoText
-            mb={{ base: 3, lg: 5 }}
-            flexBasis="100%"
-            icon={IoLocationSharp}>
+          <InfoText mb={{ base: 3, lg: 5 }} flexBasis="100%" icon={IoLocationSharp}>
             {address}
           </InfoText>
           <InfoText mr={{ base: 4, lg: 6 }} icon={IoBedSharp}>
@@ -62,11 +59,7 @@ const InfoText = (props) => {
   return (
     <Flex {...props} direction="row" align="center">
       <Icon as={props.icon} mb={'0.1rem'} mr={1.5} />
-      <Text
-        fontSize={{ base: '14px', md: 'lg', '2xl': 'xl' }}
-        whiteSpace="nowrap"
-        color="gray.600"
-        fontWeight="500">
+      <Text fontSize={{ base: '14px', md: 'lg', "2xl": "xl" }} whiteSpace="nowrap" color="gray.600" fontWeight="500">
         {props.children}
       </Text>
     </Flex>
