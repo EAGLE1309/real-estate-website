@@ -1,5 +1,6 @@
-import { chakra, Flex, Grid } from '@chakra-ui/react';
+import { chakra, Flex, Grid, Icon } from '@chakra-ui/react';
 import { Text, Heading, Card } from '../components';
+import { FaQuoteLeft } from 'react-icons/fa';
 
 const estates = [
   {
@@ -38,7 +39,7 @@ export default function Popular() {
         position: 'absolute',
         top: '50%',
         width: '150%',
-        height: '1000px',
+        height: '5000px',
         bg: 'gray.800',
         zIndex: '-1'
       }}
@@ -62,6 +63,7 @@ export default function Popular() {
 
         <Grid
           w="100%"
+          pb={sectionGap}
           templateColumns={'repeat(3, 1fr)'}
           className="no__overflow-scroll"
           gap={{ base: 6, md: 12, lg: 10 }}
@@ -79,6 +81,41 @@ export default function Popular() {
               />
             ))}
         </Grid>
+        <Flex
+          w="100%"
+          gap={12}
+          direction={{ base: 'column', md: 'row' }}
+          align="start"
+          justify="space-between">
+          <Flex whiteSpace="nowrap" mb={8} direction="column">
+            <Text fontSize={{ base: 'md', md: '2xl', xl: '3xl' }} color="white">
+              John Doe
+            </Text>
+            <Text
+              color="whiteAlpha.500"
+              fontWeight="400"
+              fontSize={{ base: 'xs', md: 'lg', xl: 'xl' }}>
+              Founder
+            </Text>
+          </Flex>
+
+          <Flex w="100%" direction="row">
+            <Icon
+              fontSize={{ base: 'xl', md: '2xl', xl: '3xl' }}
+              mr={{ base: 3 }}
+              color="whiteAlpha.400"
+              as={FaQuoteLeft}
+            />
+            <Text
+              mt={2}
+              fontSize={{ base: 'md', md: '2xl', xl: '3xl' }}
+              color="white">
+              Our business is one of close relationships and we are very
+              fortunate to be able to share so many positive real estate
+              experiences with our clients.
+            </Text>
+          </Flex>
+        </Flex>
       </Flex>
     </Flex>
   );
