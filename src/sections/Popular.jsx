@@ -99,7 +99,7 @@ export default function Popular() {
             </Text>
           </Flex>
 
-          <Flex w="100%" direction="row">
+          <Flex direction="row">
             <Icon
               fontSize={{ base: 'xl', md: '2xl', xl: '3xl' }}
               mr={{ base: 3 }}
