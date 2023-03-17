@@ -19,7 +19,7 @@ export default function Card({ image, address, bhk, dimensions, area, price }) {
         maxW={{ base: 'calc(100vw - 3rem)', md: '100%' }}
         maxH={{ base: 'calc(100vw - 8rem)', md: '325px' }}
         objectFit="cover"
-        alt="home image"
+        alt="popular house image"
       />
       <Flex
         direction="column"
