@@ -14,7 +14,7 @@ export default function Layout({ children, px }) {
         overflow="hidden">
         <Container
           d="flex"
-          px={px ? px : { base: 6, md: 12, lg: 10, xl: 12 }}
+          px={px ? px : { base: 6, md: 12, lg: 10, xl: 16 }}
           maxW="1440px"
           h="100%"
           centerContent>
