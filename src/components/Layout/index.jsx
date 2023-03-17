@@ -15,7 +15,7 @@ export default function Layout({ children, px }) {
         <Container
           d="flex"
           px={px ? px : { base: 6, md: 12, lg: 10, xl: 6 }}
-          maxW="container.xl"
+          maxW="1440px"
           h="100%"
           centerContent>
           <VStack alignItems="stretch" flex={1} w="full" spacing={16}>
