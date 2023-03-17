@@ -2,7 +2,11 @@ import { chakra, Flex, Image } from '@chakra-ui/react';
 import { Text, Heading, Button, SearchEstate, Stats } from '../components';
 
 export default function Hero() {
-  const sectionGap = { base: 16, md: 24, lg: 28 };
+  const sectionGap = {
+    base: '16 !important',
+    md: '24 !important',
+    lg: '28 !important'
+  };
 
   return (
     <>
