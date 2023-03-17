@@ -23,7 +23,7 @@ export default function Services() {
         <Flex align="start" direction="column" w={{ base: "100%", lg: "90%" }}>
           <Flex
             alignSelf="start"
-            pb={{ base: 2, md: 4, lg: 6 }}
+            pb={{ base: 2, md: 4 }}
             direction="row"
             align="center">
             <chakra.span
@@ -34,7 +34,7 @@ export default function Services() {
             />
             <Text>OUR SERVICES</Text>
           </Flex>
-          <Heading alignSelf="start" mb={4} fontWeight="semibold" as="h3">
+          <Heading alignSelf="start" mb={{ base: 4, lg: 6, xl: 8 }} fontWeight="semibold" as="h3">
             Comfort is our <br />
             Top Priority for you
           </Heading>
