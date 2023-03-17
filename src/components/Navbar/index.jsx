@@ -44,7 +44,7 @@ export default function Navbar() {
           align={'center'}
           gap={{ base: 8, md: 10 }}
           px={{ base: 6, md: 12, lg: 6 }}
-          maxW="container.xl">
+          maxW="1440px">
           <Flex flex={{ base: 1 }} justify={{ base: 'start', md: 'start' }}>
             <Flex
               justify="start"
