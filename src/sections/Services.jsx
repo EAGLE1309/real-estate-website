@@ -17,9 +17,10 @@ export default function Services() {
         w="100%"
         pos="relative"
         gap={{ base: 8, md: 12 }}
+        justify="space-between"
         direction={{ base: 'column', md: 'row-reverse' }}
         align="start">
-        <Flex align="start" direction="column" w="100%">
+        <Flex align="start" direction="column" w={{ base: "100%", lg: "90%" }}>
           <Flex
             alignSelf="start"
             pb={{ base: 2, md: 4, lg: 6 }}
@@ -38,7 +39,7 @@ export default function Services() {
             Top Priority for you
           </Heading>
 
-          <Text mb={4}>
+          <Text mb={{ base: 4, lg: 6 }}>
             Insightful consumer resources tailored towards finding the perfect
             property
           </Text>
@@ -46,7 +47,7 @@ export default function Services() {
           <Grid
             rowGap={{ base: 2, md: 4 }}
             gap={{ md: 6 }}
-            mb={5}
+            mb={{ base: 5, lg: 7 }}
             w="100%"
             templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}>
             <Bullet>Premium national marketing</Bullet>
@@ -58,7 +59,7 @@ export default function Services() {
           <Button>See more</Button>
         </Flex>
 
-        <Flex flex="50%" pos="relative" align="start" gap={'0.75rem'} w="100%">
+        <Flex pos="relative" align="start" gap={'0.75rem'} w="100%">
           <chakra.span
             pos="absolute"
             h="65px"
@@ -86,8 +87,8 @@ export default function Services() {
             w="60%"
             alt="services image"
             src="/house-2.png"
-            minH={{ base: 'calc(100vw - 6rem)', md: '375px' }}
-            maxH={{ base: 'calc(100vw - 8rem)', md: '375px' }}
+            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px" }}
+            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px" }}
             objectFit="cover"
           />
           <Image
@@ -95,9 +96,9 @@ export default function Services() {
             src="/house-1.png"
             mt={{ base: -6, md: -8 }}
             w="calc(40% - 0.75rem)"
-            minH={{ base: 'calc(100vw - 6rem)', md: '375px' }}
+            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px" }}
             maxW={{ base: 'calc(100vw - 3rem)', md: '100%' }}
-            maxH={{ base: 'calc(100vw - 8rem)', md: '375px' }}
+            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px" }}
             objectFit="cover"
           />
         </Flex>
