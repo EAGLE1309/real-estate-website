@@ -20,7 +20,7 @@ export default function Services() {
         justify="space-between"
         direction={{ base: 'column', md: 'row-reverse' }}
         align="start">
-        <Flex align="start" direction="column" w={{ base: "100%", lg: "90%" }}>
+        <Flex align="start" direction="column" w={{ base: '100%', lg: '90%' }}>
           <Flex
             alignSelf="start"
             pb={{ base: 2, md: 4 }}
@@ -34,7 +34,11 @@ export default function Services() {
             />
             <Text>OUR SERVICES</Text>
           </Flex>
-          <Heading alignSelf="start" mb={{ base: 4, lg: 6, xl: 8 }} fontWeight="semibold" as="h3">
+          <Heading
+            alignSelf="start"
+            mb={{ base: 4, lg: 6, xl: 8 }}
+            fontWeight="semibold"
+            as="h3">
             Comfort is our <br />
             Top Priority for you
           </Heading>
@@ -86,19 +90,39 @@ export default function Services() {
           <Image
             w="60%"
             alt="services image"
-            src="/house-2.png"
-            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px", xl: "475px" }}
-            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px", xl: "475px" }}
+            src="/house-5.png"
+            minH={{
+              base: 'calc(100vw - 6rem)',
+              md: '375px',
+              lg: '425px',
+              xl: '475px'
+            }}
+            maxH={{
+              base: 'calc(100vw - 8rem)',
+              md: '375px',
+              lg: '425px',
+              xl: '475px'
+            }}
             objectFit="cover"
           />
           <Image
             alt="services image"
-            src="/house-1.png"
+            src="/hero.png"
             mt={{ base: -6, md: -8 }}
             w="calc(40% - 0.75rem)"
-            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px", xl: "475px" }}
+            minH={{
+              base: 'calc(100vw - 6rem)',
+              md: '375px',
+              lg: '425px',
+              xl: '475px'
+            }}
             maxW={{ base: 'calc(100vw - 3rem)', md: '100%' }}
-            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px", xl: "475px" }}
+            maxH={{
+              base: 'calc(100vw - 8rem)',
+              md: '375px',
+              lg: '425px',
+              xl: '475px'
+            }}
             objectFit="cover"
           />
         </Flex>

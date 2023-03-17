@@ -74,8 +74,8 @@ export default function Popular() {
         pb={sectionGap}
         templateColumns={'repeat(3, 1fr)'}
         className="no__overflow-scroll"
-        gap={{ base: 6, md: 12, lg: 10 }}
-        overflow="scroll"
+        gap={{ base: 6, md: 12, lg: 8 }}
+        overflow={{ base: 'scroll', lg: 'hidden' }}
         position="relative">
         {estates &&
           estates.map((data) => (
