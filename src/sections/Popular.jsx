@@ -42,7 +42,7 @@ export default function Popular() {
         content: "''",
         position: 'absolute',
         top: '35%',
-        width: '150%',
+        width: '200%',
         height: { base: 'calc(100% - 35%)' },
         bg: 'gray.800',
         zIndex: '-1'

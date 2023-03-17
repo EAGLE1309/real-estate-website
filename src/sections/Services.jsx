@@ -39,7 +39,7 @@ export default function Services() {
             Top Priority for you
           </Heading>
 
-          <Text mb={{ base: 4, lg: 6 }}>
+          <Text mb={{ base: 4, lg: 6, xl: 8 }}>
             Insightful consumer resources tailored towards finding the perfect
             property
           </Text>
@@ -47,7 +47,7 @@ export default function Services() {
           <Grid
             rowGap={{ base: 2, md: 4 }}
             gap={{ md: 6 }}
-            mb={{ base: 5, lg: 7 }}
+            mb={{ base: 5, lg: 7, xl: 9 }}
             w="100%"
             templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}>
             <Bullet>Premium national marketing</Bullet>
@@ -87,8 +87,8 @@ export default function Services() {
             w="60%"
             alt="services image"
             src="/house-2.png"
-            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px" }}
-            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px" }}
+            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px", xl: "475px" }}
+            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px", xl: "475px" }}
             objectFit="cover"
           />
           <Image
@@ -96,9 +96,9 @@ export default function Services() {
             src="/house-1.png"
             mt={{ base: -6, md: -8 }}
             w="calc(40% - 0.75rem)"
-            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px" }}
+            minH={{ base: 'calc(100vw - 6rem)', md: '375px', lg: "425px", xl: "475px" }}
             maxW={{ base: 'calc(100vw - 3rem)', md: '100%' }}
-            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px" }}
+            maxH={{ base: 'calc(100vw - 8rem)', md: '375px', lg: "425px", xl: "475px" }}
             objectFit="cover"
           />
         </Flex>
