@@ -18,7 +18,7 @@ export default function CustomButton(props) {
       py={props.py ? props.py : { base: 2.5, md: 3 }}
       fontWeight="500"
       _hover={{
-        color: 'gray.50',
+        color: props.varient == 'secondary' ? 'blue.500' : 'gray.50',
         bg: props.varient == 'secondary' ? 'blue.100' : 'gray.700'
       }}
       _active={{

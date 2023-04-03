@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import SearchEstate from './SearchEstate';
 import Stats from './Stats';
 import Card from './Card';
+import BlogCard from './BlogCard';
 
 export {
   Text,
@@ -17,5 +18,6 @@ export {
   Modal,
   Navbar,
   SearchEstate,
-  Stats
+  Stats,
+  BlogCard
 };

@@ -41,7 +41,7 @@ a {
   }
 }
 
-/*======== OVERFLOW SCROLLBAR ========*/
+/*======== SCROLLBAR ========*/
 /* Chrome, Safari and Opera */
 .no__overflow-scroll::-webkit-scrollbar {
   display: none;
@@ -51,6 +51,12 @@ a {
 .no__overflow-scroll {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(228, 8%, 76%);
+  border-radius: 0.5rem;
 }
 
 /*======== NAVBAR OVERRIDES ========*/
