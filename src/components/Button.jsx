@@ -8,7 +8,7 @@ export default function CustomButton(props) {
       {...props}
       className="noselect"
       as={props.as ? props.as : 'a'}
-      type={props.as == 'button' ? props.type : undefined}
+      type={props.as === 'button' ? props.type : undefined}
       target={props.href && props.openInNewTab ? '_blank' : undefined}
       rel={props.href && props.openInNewTab ? 'noopener noreferrer' : undefined}
       lineHeight="1.4"
@@ -18,19 +18,19 @@ export default function CustomButton(props) {
       py={props.py ? props.py : { base: 2.5, md: 3 }}
       fontWeight="500"
       _hover={{
-        color: props.varient == 'secondary' ? 'blue.500' : 'gray.50',
-        bg: props.varient == 'secondary' ? 'blue.100' : 'gray.700'
+        color: props.varient === 'secondary' ? 'blue.500' : 'gray.50',
+        bg: props.varient === 'secondary' ? 'blue.100' : 'gray.700'
       }}
       _active={{
         transform: 'scale(0.95)'
       }}
       transition=".225s"
-      bg={props.varient == 'secondary' ? 'blue.50' : 'gray.800'}
+      bg={props.varient === 'secondary' ? 'blue.50' : 'gray.800'}
       fontSize={props.fontSize ? props.fontSize : fs}
       color={
         props.color
           ? props.color
-          : props.varient == 'secondary'
+          : props.varient === 'secondary'
           ? 'blue.500'
           : 'gray.50'
       }>

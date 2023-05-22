@@ -8,7 +8,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 
 import theme from './theme/index.js';
-import { Layout, Navbar } from './components';
+import { Layout, Navbar, Footer } from './components';
 
 const rootElement = document.getElementById('root');
 ReactDOM.createRoot(rootElement).render(
@@ -19,6 +19,7 @@ ReactDOM.createRoot(rootElement).render(
       <Navbar />
       <Layout>
         <App />
+        <Footer />
       </Layout>
     </ChakraProvider>
   </React.StrictMode>

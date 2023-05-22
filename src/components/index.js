@@ -9,6 +9,7 @@ import Stats from './Stats';
 import Card from './Card';
 import BlogCard from './BlogCard';
 import Feedback from './Feedback';
+import Footer from './Footer';
 
 export {
   Text,
@@ -21,5 +22,6 @@ export {
   SearchEstate,
   Stats,
   BlogCard,
-  Feedback
+  Feedback,
+  Footer
 };

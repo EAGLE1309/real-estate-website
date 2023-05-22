@@ -14,13 +14,13 @@ export default function Heading(props) {
       fontSize={
         props.fontSize
           ? props.fontSize
-          : props.as == 'h1'
+          : props.as === 'h1'
           ? h1
-          : props.as == 'h2'
+          : props.as === 'h2'
           ? h2
-          : props.as == 'h3'
+          : props.as === 'h3'
           ? h3
-          : props.as == 'h4'
+          : props.as === 'h4'
           ? h4
           : h1
       }

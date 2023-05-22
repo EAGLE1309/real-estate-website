@@ -5,11 +5,11 @@ import { Box, Container, VStack } from '@chakra-ui/react';
   For Responsive Design!
 *========[---]========*/
 
-export default function Layout({ children, px }) {
+export default function Layout({ children, pt, px }) {
   return (
     <>
       <Box
-        pt={{ base: '140px', lg: '200px' }}
+        pt={pt ? pt : { base: '140px', lg: '200px' }}
         position="static"
         overflow="hidden">
         <Container
