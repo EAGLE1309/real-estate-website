@@ -15,10 +15,11 @@ export default function Services() {
       <Flex
         mb={sectionGap}
         w="100%"
+        id="services"
         pos="relative"
         gap={{ base: 8, md: 12 }}
         justify="space-between"
-        direction={{ base: 'column', md: 'row-reverse' }}
+        direction={{ base: 'column', lg: 'row-reverse' }}
         align="start">
         <Flex align="start" direction="column" w={{ base: '100%', lg: '90%' }}>
           <Flex

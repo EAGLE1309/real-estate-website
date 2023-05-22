@@ -10,16 +10,20 @@ const navItems = [
     href: '#'
   },
   {
-    title: 'Features',
-    href: '#features'
+    title: 'Services',
+    href: '#services'
   },
   {
-    title: 'About',
-    href: '#about'
+    title: 'Blog',
+    href: '#blog'
   },
   {
-    title: 'Agents',
-    href: '#agents'
+    title: 'Feedbacks',
+    href: '#feedbacks'
+  },
+  {
+    title: 'FAQs',
+    href: '#FAQs'
   }
 ];
 
@@ -74,7 +78,7 @@ export default function Navbar() {
                 />
               </Flex>
             ),
-            md: <DekstopNav />
+            lg: <DekstopNav />
           })}
           <MobileNav onClick={() => toggleOpen(!isOpen)} isOpen={isOpen} />
         </Flex>

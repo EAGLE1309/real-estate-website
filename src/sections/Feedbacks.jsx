@@ -37,6 +37,7 @@ export default function Feedbacks() {
       <Flex
         mb={sectionGap}
         w="100%"
+        id="feedbacks"
         _after={{
           content: "''",
           position: 'absolute',

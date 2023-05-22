@@ -47,6 +47,7 @@ export default function Popular() {
         bg: 'gray.800',
         zIndex: '-1'
       }}
+      id="popular"
       position="relative"
       w="100%"
       direction="column"

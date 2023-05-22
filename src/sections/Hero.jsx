@@ -52,7 +52,7 @@ export default function Hero() {
           mt={{ lg: 6 }}
           mb={{ md: 16, lg: 20 }}
           align="start"
-          direction={{ base: 'column', md: 'row' }}
+          direction={{ base: 'column', lg: 'row' }}
           w="100%">
           <Flex
             mb={{ base: 8, lg: 10, '2xl': 12 }}
@@ -70,7 +70,8 @@ export default function Hero() {
             <Text
               maxW={{ md: '95%' }}
               mb={{ base: 10, md: 12, lg: 14, '2xl': 14 }}>
-              Our goal is to make real estate simple, transparent, and
+              Our goal is to make real estate simple, transparent, and{' '}
+              <chakra.br display={{ base: 'none', md: 'block', lg: 'none' }} />
               accessible and let everyone live in a happy home.
             </Text>
             <Button mb={{ base: 10, lg: 12, '2xl': 14 }}>Get Started</Button>

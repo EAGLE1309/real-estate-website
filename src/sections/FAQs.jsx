@@ -41,7 +41,8 @@ export default function BlogPosts() {
         w="100%"
         pos="relative"
         direction="column"
-        align="start">
+        align="start"
+        id="FAQs">
         <Flex
           direction={{ base: 'column' }}
           align={{ base: 'start' }}
