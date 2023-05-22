@@ -1,19 +1,6 @@
 import { chakra, Flex, Grid } from '@chakra-ui/react';
 import { Text, Heading, Button, BlogCard } from '../components';
 
-/*
-- Latest Housing Market Trends and Statistics
-
-- Understanding the Impact of Interest Rates on Home Prices
-
-- Exploring Different Types of Mortgages for Homebuyers
-
-- Navigating the Process of Buying a House in 2021
-
-- Tips to Help You Find Your Dream Home This Year
-
-*/
-
 const blogposts = [
   {
     image: '/house-7.png',
@@ -49,9 +36,8 @@ export default function BlogPosts() {
         direction="column"
         align="start">
         <Flex
-          direction={{ base: 'column', lg: 'row' }}
-          align={{ base: 'start', lg: 'center' }}
-          justify="space-between"
+          direction={{ base: 'column' }}
+          align={{ base: 'start' }}
           mb={{ base: 8, md: 8 }}>
           <Flex direction="column">
             <Flex
@@ -77,7 +63,6 @@ export default function BlogPosts() {
             <chakra.br display={{ base: 'none', md: 'block', lg: 'none' }} />{' '}
             about your real estate investments.
           </Text>
-
           <Button>See all articles</Button>
         </Flex>
 

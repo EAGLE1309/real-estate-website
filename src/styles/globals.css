@@ -186,3 +186,8 @@ a {
   WEB: eagledev.ml
   
 *========[---]========*/
+
+.carousel {
+  padding-right: 0.1px;
+  min-width: 106%;
+}

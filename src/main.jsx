@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
 import './styles/globals.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 

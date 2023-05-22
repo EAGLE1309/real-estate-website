@@ -8,6 +8,7 @@ import SearchEstate from './SearchEstate';
 import Stats from './Stats';
 import Card from './Card';
 import BlogCard from './BlogCard';
+import Feedback from './Feedback';
 
 export {
   Text,
@@ -19,5 +20,6 @@ export {
   Navbar,
   SearchEstate,
   Stats,
-  BlogCard
+  BlogCard,
+  Feedback
 };

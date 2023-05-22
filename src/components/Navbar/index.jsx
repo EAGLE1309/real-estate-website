@@ -154,7 +154,7 @@ function MobileNav({ isOpen, onClick }) {
         transition={`.3s ${!isOpen ? '0.75s' : '0.1s'}`}
         position="absolute"
         top="0"
-        left="0"
+        left={isOpen ? 0 : -25}
         opacity={isOpen ? 1 : 0}
         w={isOpen ? '100%' : 0}
         mt={'52px'}
