@@ -22,7 +22,7 @@ export default function Feedback({ image, comment, name }) {
         direction="column"
         w="100%"
         pr={{ base: 8, md: 0 }}
-        mr={{ md: 32 }}
+        mr={{ md: 32, lg: 40, xl: 48 }}
         textAlign="start"
         justify="center">
         <Heading pb={6} as="h3" fontWeight="medium" color="whiteAlpha.900">
