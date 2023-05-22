@@ -49,7 +49,7 @@ export default function Feedbacks() {
         position="relative"
         direction="column"
         align="center">
-        <Flex w="100%" align="start" direction="column">
+        <Flex py={{ md: 2, lg: 6, xl: 8 }} w="100%" align="start" direction="column">
           <Flex mb={{ base: 8, md: 10 }} direction="column">
             <Flex
               alignSelf="start"
