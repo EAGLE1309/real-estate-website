@@ -134,7 +134,7 @@ function DekstopNav() {
             color="white"
             bg="gray.800"
             className="noselect"
-            fontSize={{ base: '16px', xl: '18px' }}
+            fontSize={{ base: '16px', xl: "25px" }}
             py={3}
             px={8}
             _hover={{
