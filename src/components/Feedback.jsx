@@ -2,7 +2,7 @@ import { Flex, Image } from '@chakra-ui/react';
 import Text from './Text.jsx';
 import Heading from './Heading.jsx';
 
-export default function Feedback({ image, comment, name }) {
+export default function Feedback({ image, comment, name, occupation }) {
   return (
     <Flex
       w="100%"
@@ -53,7 +53,7 @@ export default function Feedback({ image, comment, name }) {
               xl: 'xl',
               '2xl': '2xl'
             }}>
-            Lead Designer at Infosys
+            {occupation}
           </Text>
         </Flex>
       </Flex>

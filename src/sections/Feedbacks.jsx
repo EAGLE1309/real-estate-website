@@ -4,24 +4,34 @@ import { Carousel } from 'react-responsive-carousel';
 
 const feedbacks = [
   {
+    name: 'Jose Kurama',
     image: 'Business-man-1.png',
+    occupation: 'Lead Designer at Infosys',
     comment: `I recently worked with Real Estate Company to secure a home that was perfect for my budget and needs. The team at Real Estate Company was professional, efficient, and highly knowledgeable about the area in which we were looking.`
   },
   {
-    image: 'Business-man-1.png',
-    comment: `I recently worked with Real Estate Company to secure a home that was perfect for my budget and needs. The team at Real Estate Company was professional, efficient, and highly knowledgeable about the area in which we were looking.`
+    name: 'John Doe',
+    image: 'business-man-2.png',
+    occupation: 'Lead Developer at Google',
+    comment: `Realtor has been a great partner for us in our real estate business. The team is very knowledgeable, and provides exceptional service and support. They have kept us up to date with the latest market trends and have helped us make well informed decisions when it comes to our investments.`
   },
   {
-    image: 'Business-man-1.png',
-    comment: `I recently worked with Real Estate Company to secure a home that was perfect for my budget and needs. The team at Real Estate Company was professional, efficient, and highly knowledgeable about the area in which we were looking.`
+    name: 'Robert Moreno',
+    image: 'business-man-3.png',
+    occupation: 'Software Designer at Microsoft',
+    comment: `I recently used the services of Realtor to help me find a new home and I couldn't be happier! They were extremely knowledgeable, professional and helpful. Their expertise in the local market helped me to quickly find a property that met all my needs.`
   },
   {
-    image: 'Business-man-1.png',
-    comment: `I recently worked with Real Estate Company to secure a home that was perfect for my budget and needs. The team at Real Estate Company was professional, efficient, and highly knowledgeable about the area in which we were looking.`
+    name: 'James Summers',
+    image: 'business-man-4.png',
+    occupation: 'Lead Designer at Microsoft',
+    comment: `I recently had the pleasure of working with Realtor and they were absolutely amazing. They took the time to understand my needs and provided me with a tailored service that went above and beyond my expectations.`
   },
   {
-    image: 'Business-man-1.png',
-    comment: `I recently worked with Real Estate Company to secure a home that was perfect for my budget and needs. The team at Real Estate Company was professional, efficient, and highly knowledgeable about the area in which we were looking.`
+    name: 'Charles Clayton',
+    image: 'business-man-5.png',
+    occupation: 'Software Engineer at Google',
+    comment: `I recently used Realtor to find a new home and it was an absolute pleasure. The team was incredibly knowledgeable and helpful, always available for questions and finding properties that suited my needs.`
   }
 ];
 
@@ -92,9 +102,10 @@ export default function Feedbacks() {
               feedbacks.map((data) => (
                 <Flex w="100%">
                   <Feedback
-                    name="Jose Kurama"
+                    name={data.name}
                     image={data.image}
                     comment={data.comment}
+                    occupation={data.occupation}
                   />
                 </Flex>
               ))}

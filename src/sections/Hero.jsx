@@ -71,7 +71,7 @@ export default function Hero() {
               maxW={{ md: '95%' }}
               mb={{ base: 10, md: 12, lg: 14, '2xl': 14 }}>
               Our goal is to make real estate simple, transparent, and{' '}
-              <chakra.br display={{ base: 'none', md: 'block', lg: 'none' }} />
+              <chakra.br display={{ base: 'none', md: 'block' }} />
               accessible and let everyone live in a happy home.
             </Text>
             <Button mb={{ base: 10, lg: 12, '2xl': 14 }}>Get Started</Button>
