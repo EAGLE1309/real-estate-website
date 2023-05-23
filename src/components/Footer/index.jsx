@@ -80,6 +80,7 @@ export default function Footer() {
           borderRadius="50%"
           filter="auto"
           blur="120px"
+          zIndex="-5"
         />
 
         <Flex direction="column" align="center" w="100%">
