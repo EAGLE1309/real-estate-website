@@ -22,6 +22,7 @@ export default function Footer() {
         isOpen={isOpen}
         onClose={onClose}
         noFooter
+        size="2xl"
         title="Credits and Attributions">
         <UnorderedList
           fontSize={{ base: '14px', md: 'lg', lg: 'xl', '2xl': '2xl' }}

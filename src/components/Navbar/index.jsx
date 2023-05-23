@@ -1,6 +1,7 @@
-import { Flex, Text, Icon, useBreakpointValue } from '@chakra-ui/react';
+import { Flex, Icon, useBreakpointValue } from '@chakra-ui/react';
 import { useState } from 'react';
 import Logo from '../Logo.jsx';
+import Text from '../Text.jsx';
 import HamburgerMenu from './HamburgerMenu.jsx';
 import { IoChevronDownSharp, IoLanguageOutline } from 'react-icons/io5';
 
