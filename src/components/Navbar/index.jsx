@@ -60,7 +60,7 @@ export default function Navbar() {
               _hover={{
                 color: 'gray.600'
               }}>
-              <Logo height={{ base: 24, xl: 32 }} />
+              <Logo height={useBreakpointValue({ base: 24, md: 32, xl: 36 })} />
             </Flex>
           </Flex>
 

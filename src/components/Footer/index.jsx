@@ -4,7 +4,8 @@ import {
   Icon,
   UnorderedList,
   ListItem,
-  useDisclosure
+  useDisclosure,
+  useBreakpointValue
 } from '@chakra-ui/react';
 import Logo from '../Logo';
 import Text from '../Text';
@@ -91,8 +92,8 @@ export default function Footer() {
                 cursor="pointer"
                 _hover={{
                   color: 'gray.600'
-                }}>
-                <Logo height={24} />
+                }}> 
+                <Logo height={useBreakpointValue({ base: 24, md: 32, xl: 36 })} />
               </Flex>
             </Flex>
             <Flex w="100%" justify="flex-end" gap={4}>
@@ -140,7 +141,7 @@ function SocialsIcon({ icon }) {
       cursor="pointer"
       as={icon}
       color="gray.800"
-      fontSize="3xl"
+      fontSize={{ base: "3xl", md: "4xl", xl: "5xl" }}
       p={1.5}
       bg="blackAlpha.100"
       borderRadius="6px"
