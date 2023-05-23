@@ -141,7 +141,7 @@ function SocialsIcon({ icon }) {
       cursor="pointer"
       as={icon}
       color="gray.800"
-      fontSize={{ base: "3xl", md: "4xl", xl: "5xl" }}
+      fontSize={{ base: "3xl", md: "4xl" }}
       p={1.5}
       bg="blackAlpha.100"
       borderRadius="6px"
