@@ -93,8 +93,10 @@ export default function Footer() {
                 cursor="pointer"
                 _hover={{
                   color: 'gray.600'
-                }}> 
-                <Logo height={useBreakpointValue({ base: 24, md: 32, xl: 36 })} />
+                }}>
+                <Logo
+                  height={useBreakpointValue({ base: 24, md: 32, xl: 36 })}
+                />
               </Flex>
             </Flex>
             <Flex w="100%" justify="flex-end" gap={4}>
@@ -142,7 +144,7 @@ function SocialsIcon({ icon }) {
       cursor="pointer"
       as={icon}
       color="gray.800"
-      fontSize={{ base: "3xl", md: "4xl" }}
+      fontSize={{ base: '3xl', md: '4xl' }}
       p={1.5}
       bg="blackAlpha.100"
       borderRadius="6px"

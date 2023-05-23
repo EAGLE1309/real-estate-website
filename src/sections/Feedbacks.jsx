@@ -93,6 +93,8 @@ export default function Feedbacks() {
             infiniteLoop
             autoPlay
             interval={5000}
+            preventMovementUntilSwipeScrollTolerance={true}
+            swipeScrollTolerance={30}
             showArrows={false}
             showThumbs={false}
             showIndicators={false}
